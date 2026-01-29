@@ -1,0 +1,65 @@
+<!-- Need to add page selector, banner, rules, ect -->
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Last Stand Hardcore Website</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="left">
+                <img src="photos/Logo.png" alt="Logo" />
+                <br />
+                <!-- add links to Main, Rules, Links -->
+                <h3><a href="index.html">Home</a></h3>
+                <h3><a href="Rules.html" class="active">Server Rules</a></h3>
+            </div>
+
+            <div class="right">
+
+                <div class="intro2">
+                    <h1>Rules</h1>
+                </div>
+
+                <div class="information">
+                <table style="width:90%">
+                    <tr>
+                        <th style="height:50px">Get to Know ...</th>
+                        <td style="width:60%">I have been coding games for a little over 3 years, working with many different languages and platforms which allows me to adapt easily. I am currently studying towards a BA in Computer Science with a concentration of Game Design and Development.</td>
+                    </tr>
+                    <tr>
+                        <th style="height:50px">Plugins Added</th>
+                        <td>...<br />...</td>
+                    </tr>
+                </table>
+            </div>
+
+            </div>
+        </div>
+
+    </body>
+
+    <footer>
+        <table>
+            <!-- will contain links -->
+        </table>
+    </footer>
+
+    <script>
+    const links = document.querySelectorAll("a");
+
+    // Get current URL
+    const currentURL = window.location.href;
+
+    // Loop through the links and add 'active' class to the matching link
+    links.forEach(link => {
+        if (link.href === currentURL) {
+            link.classList.add("active");
+        }
+    });
+</script>
+ </html>

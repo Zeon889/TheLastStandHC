@@ -23,7 +23,7 @@ body {
     height: 100vh;
     background-color: #323E4FFF;
     color: white;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -32,36 +32,39 @@ body {
 }
 
 .right {
-    margin-left: 350px;
+    margin-left: 200px;
     flex: 1;
     overflow-y: auto;
     height: 100vh;
     box-sizing: border-box;
 }
 
-.intro {
+.intro1 {
     display: grid; /* Use Grid for centering */
     place-items: center; /* Center content horizontally and vertically */
     height: 400px;
     width: 100%;
-    background: linear-gradient(rgb(8, 8, 16, 0.60), rgba(8, 8, 16, 0.60)), url('images/Background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     text-align: center;
 }
 
-.intro h1, .intro p, .intro input {
+.intro1 {
+    background: linear-gradient(rgb(8, 8, 16, 0.60), rgba(8, 8, 16, 0.60)), url('photos/Background1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro1 h1, .intro1 p, .intro1 input {
     margin: 0; /* Reset margins */
     text-align: center; /* Ensure text is centered */
     color: white;
 }
 
-.intro h1 {
+.intro1 h1 {
     color: white;
 }
 
-.intro p {
+.intro1 p {
     color: lightgrey;
 }
 
