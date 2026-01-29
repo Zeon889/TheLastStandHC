@@ -19,7 +19,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 350px;
+    width: 200px;
     height: 100vh;
     background-color: #323E4FFF;
     color: white;
@@ -92,7 +92,7 @@ input[type="button"]:hover {
 }
 
 .left img {
-    width: 180px;
+    width: 200px;
     height: 200px;
 }
 
