@@ -39,7 +39,7 @@ body {
     box-sizing: border-box;
 }
 
-.intro1 {
+.intro1, .intro2 {
     display: grid; /* Use Grid for centering */
     place-items: center; /* Center content horizontally and vertically */
     height: 400px;
@@ -54,17 +54,24 @@ body {
     background-size: cover;
 }
 
-.intro1 h1, .intro1 p, .intro1 input {
+.intro2 {
+    background: linear-gradient(rgb(8, 8, 16, 0.60), rgba(8, 8, 16, 0.60)), url('photos/Background2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro1 h1, .intro1 p, .intro2 h1, .intro2 p {
     margin: 0; /* Reset margins */
     text-align: center; /* Ensure text is centered */
     color: white;
 }
 
-.intro1 h1 {
+.intro1 h1, .intro2 h1 {
     color: white;
 }
 
-.intro1 p {
+.intro1 p, .intro2 p {
     color: lightgrey;
 }
 
