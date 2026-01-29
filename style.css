@@ -6,8 +6,16 @@ body {
     height: 100vh;
 }
 
+@font-face {
+    font-family: 'MyCustomFont'; /* A unique name for your font */
+    src: url('fonts/MinecraftRegular-Bmg3.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Helps optimize loading speed */
+}
+
 *{
-    font-family: Monaco, monospace;
+    font-family: 'MyCustomFont', Monaco, monospace;
 }
 
 .container {
